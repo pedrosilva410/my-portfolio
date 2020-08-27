@@ -1,5 +1,12 @@
-.nav {
+.header{
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  width: 50%;
   height: 100px;
   display: flex;
   justify-content: space-evenly;
@@ -27,4 +34,27 @@
   padding: 20px 0;
   cursor: pointer;
   font-size: 24px;
+}
+
+.header__contact_container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header__contact{
+ margin-right: 100px;
+ background-color: var(--main-color);
+ padding: 10px;
+ font-size:20px;
+ border-radius: 24px;
+ color: black;
+ font-weight: bold;
+ transition: all .2s ease-in-out;
+}
+
+.header__contact:hover{
+  background-color: var(--main-color-dark);
+  margin-bottom:10px;
 }
