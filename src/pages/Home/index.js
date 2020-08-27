@@ -1,10 +1,20 @@
 import React from "react";
+import {Link} from "react-router-dom";
+
 import "./styles.css";
 
 const Home = () => {
   return (
-    <main>
-      <h1>Pedro Silva</h1>
+    <main className="home__wrapper">
+      <div className="home__main">
+      <h2 className="home__titleName">Hi, I'm Pedro.</h2>
+      <h1 className="home__title">Front-End Developer. Designer.</h1>
+      <p className="home__text">React fanboy that loves making the users have a good experience at his websites.</p>
+      <p className="home__text">Part of <a className="home__link" href="https://school.mindera.com/" target="_blank" rel="noopener noreferrer">Mindera School</a> where I learnt most of my developer skills.</p>
+      <p className="home__text">Photography and gaming lover.</p>
+      <Link to="/about" className="home__link_to_about">Know more &gt;</Link>
+      </div>
+      <div className="home__section_making_space"/>
     </main>
   );
 };

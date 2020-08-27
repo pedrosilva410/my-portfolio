@@ -1,3 +1,36 @@
-.home__p{
-    margin-top: 20px;
+.home__wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.home__main {
+  width: 50%;
+  margin-left: 50px;
+}
+
+.home__section_making_space {
+  width: 50%;
+}
+
+.home__titleName {
+  font-size: 28px;
+  margin-bottom: 30px;
+  width: 680px;
+}
+
+.home__title {
+  font-size: 64px;
+  margin-bottom: 30px;
+  width: 680px;
+}
+
+.home__text {
+  font-size: 21px;
+  margin-bottom: 10px;
+  width: 650px;
+}
+
+.home__link_to_about, .home__link {
+  font-size: 21px;
+  color: var(--main-color)
 }
