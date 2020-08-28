@@ -32,6 +32,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--background-color);
+  background-image: url('../assets/website-background.png');
+  background-size: cover;
 }
 
 main {

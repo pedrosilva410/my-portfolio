@@ -30,7 +30,24 @@
   width: 650px;
 }
 
-.home__link_to_about, .home__link {
+.home__link_to_about {
   font-size: 21px;
-  color: var(--main-color)
+  color: var(--main-color);
+  transition: all 0.2s ease-in-out;
+}
+
+.home__link_to_about:hover {
+  color: var(--main-color-dark);
+  margin-left: 10px;
+}
+
+.home__link {
+  font-size: 21px;
+  color: var(--main-color);
+  transition: all 0.2s ease-in-out;
+}
+
+.home__link:hover {
+  color: var(--main-color-dark);
+  margin-bottom: 10px;
 }
