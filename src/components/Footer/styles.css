@@ -15,5 +15,5 @@ footer {
 .footer_p:hover {
   cursor: pointer;
   color: var(--main-color-dark);
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }

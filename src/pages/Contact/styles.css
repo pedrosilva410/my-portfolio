@@ -1,3 +1,20 @@
+.contact__wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact__main {
+  width: 68%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__section_making_space {
+  width: 40%;
+}
+
 .contact__p {
   margin-top: 10px;
 }
@@ -12,7 +29,7 @@
 .contact__img {
  width: 100px;
  height: 100px;
- margin-top: 50px;
+ margin-top: 20px;
  -webkit-transition: -webkit-transform .4s ease-in-out;
  -ms-transition: -ms-transform .4s ease-in-out;
  transition: transform .4s ease-in-out;  
