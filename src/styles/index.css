@@ -3,9 +3,9 @@
 :root {
   --background-color: #000;
   --main-text-color: #fff;
-  --main-color: #f5f500;
-  --main-color-light: #ffff1f;
-  --main-color-dark: #e0e000;
+  --main-color: gold;
+  --main-color-light: rgb(255, 229, 82);
+  --main-color-dark: rgb(189, 161, 0);
 }
 
 * {
