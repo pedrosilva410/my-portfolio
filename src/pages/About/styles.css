@@ -1,4 +1,26 @@
-.about__p{
-    margin-top: 20px;
-    width: 600px;
+.about__wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.about__main{
+    width: 50%;
+    margin-left: 50px;
+}
+
+.about__title{
+    font-size: 64px;
+    margin-bottom: 30px;
+    width: 680px;
+}
+
+.about__text{
+    font-size: 21px;
+    margin-bottom: 10px;
+    width: 660px;
+    text-align: justify;
+}
+
+.about__section_making_space{
+    width: 50%;
 }
