@@ -25,7 +25,7 @@ const Projects = () => {
             rel="noopener noreferrer"
             target="_blank"
         >
-            <img src={bookswap} alt="bookswap" className="prokects__bookswap"/>
+            <img src={bookswap} alt="bookswap" className="projects__bookswap"/>
         </a>
 
         <a
@@ -33,7 +33,7 @@ const Projects = () => {
             rel="noopener noreferrer"
             target="_blank"
         >
-             <img src={circulorodador} alt="circulorodador" className="prokects__circulorodador"/>
+             <img src={circulorodador} alt="circulorodador" className="projects__circulorodador"/>
         </a>
 
         <a
@@ -41,7 +41,7 @@ const Projects = () => {
             rel="noopener noreferrer"
             target="_blank"
         >
-            <img src={shouldyoudoit} alt="shouldyoudoit" className="prokects__shouldyoudoit"/>
+            <img src={shouldyoudoit} alt="shouldyoudoit" className="projects__shouldyoudoit"/>
         </a>
 
         <a
@@ -49,7 +49,7 @@ const Projects = () => {
             rel="noopener noreferrer"
             target="_blank"
         >
-            <img src={tictactoe} alt="tictactoe" className="prokects__tictactoe"/>
+            <img src={tictactoe} alt="tictactoe" className="projects__tictactoe"/>
         </a>
 
         </div>
