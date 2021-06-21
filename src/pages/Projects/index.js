@@ -1,10 +1,10 @@
 import React from "react";
 import "./styles.css";
 
-import bookswap from "../../assets/projects-thumbnails/bookswap.png";
-import tictactoe from "../../assets/projects-thumbnails/tictactoe.png";
-import shouldyoudoit from "../../assets/projects-thumbnails/should-you-do-it.png";
-import circulorodador from "../../assets/projects-thumbnails/circulo-rodador.png";
+import bookswap from "../../assets/projects-thumbnails/bookswap.PNG";
+import tictactoe from "../../assets/projects-thumbnails/tictactoe.PNG";
+import shouldyoudoit from "../../assets/projects-thumbnails/should-you-do-it.PNG";
+import circulorodador from "../../assets/projects-thumbnails/circulo-rodador.PNG";
 
 
 
