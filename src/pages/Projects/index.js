@@ -6,6 +6,8 @@ import tictactoe from "../../assets/projects-thumbnails/tictactoe.PNG";
 import shouldyoudoit from "../../assets/projects-thumbnails/should-you-do-it.PNG";
 import circulorodador from "../../assets/projects-thumbnails/circulo-rodador.PNG";
 
+import ProjectCard from "../../components/ProjectCard";
+
 
 
 const Projects = () => {
@@ -20,69 +22,16 @@ const Projects = () => {
           </p>
         </div>
 
-
-        {/*todo: make next items inside of the next div a component*/}
         <div className="projects__project_galery">
-          <div className="projects__project">
-            <a
-            href="https://booksswap.netlify.app"
-            rel="noopener noreferrer"
-            target="_blank"
-            >
-            <img src={bookswap} alt="bookswap" className="projects__project__img" />
-            </a>
-            <a
-            href="https://booksswap.netlify.app"
-            rel="noopener noreferrer"
-            target="_blank"
-            className="projects__project__title">BookSwap</a>
-          </div>
+          <ProjectCard link="https://booksswap.netlify.app" title="bookswap" img={bookswap}/>
 
-          <div className="projects__project">
-            <a
-            href="https://t1ct4ct0e.netlify.app"
-            rel="noopener noreferrer"
-            target="_blank"
-            >
-            <img src={tictactoe} alt="tictactoe" className="projects__project__img" />
-            </a>
-            <a
-            href="https://t1ct4ct0e.netlify.app"
-            rel="noopener noreferrer"
-            target="_blank"
-            className="projects__project__title">TicTacToe</a>
-          </div>
+          <ProjectCard link="https://t1ct4ct0e.netlify.app" title="TicTacToe" img={tictactoe}/>
 
-          <div className="projects__project">
-            <a
-            href="https://shouldyoudoit.netlify.app"
-            rel="noopener noreferrer"
-            target="_blank"
-            >
-            <img src={shouldyoudoit} alt="should you do it" className="projects__project__img" />
-            </a>
-            <a
-            href="https://shouldyoudoit.netlify.app"
-            rel="noopener noreferrer"
-            target="_blank"
-            className="projects__project__title">Should You Do It</a>
-          </div>
+          <ProjectCard link="https://shouldyoudoit.netlify.appp" title="Should You Do It" img={shouldyoudoit}/>
 
-          <div className="projects__project">
-            <a
-            href="https://circulorodador.netlify.app"
-            rel="noopener noreferrer"
-            target="_blank"
-            >
-            <img src={circulorodador} alt="fun circle" className="projects__project__img" />
-            </a>
-            <a
-            href="https://circulorodador.netlify.app"
-            rel="noopener noreferrer"
-            target="_blank"
-            className="projects__project__title">Fun Circle</a>
-          </div>
+          <ProjectCard link="https://circulorodador.netlify.app" title="Fun Circle" img={circulorodador}/>
         </div>
+        
       </div>
       <div className="projects__section_making_space"/>
     </main>
