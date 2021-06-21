@@ -27,11 +27,11 @@ const Projects = () => {
 
           <ProjectCard link="https://t1ct4ct0e.netlify.app" title="TicTacToe" img={tictactoe}/>
 
-          <ProjectCard link="https://shouldyoudoit.netlify.appp" title="Should You Do It" img={shouldyoudoit}/>
+          <ProjectCard link="https://shouldyoudoit.netlify.app" title="Should You Do It" img={shouldyoudoit}/>
 
           <ProjectCard link="https://circulorodador.netlify.app" title="Fun Circle" img={circulorodador}/>
         </div>
-        
+
       </div>
       <div className="projects__section_making_space"/>
     </main>
