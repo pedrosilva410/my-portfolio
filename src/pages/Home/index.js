@@ -10,7 +10,7 @@ const Home = () => {
         <h2 className="home__titleName">Hi, I'm Pedro.</h2>
         <h1 className="home__title">Front-End Developer. Designer.</h1>
         <p className="home__text">
-         19, self-taught frontend developer from Portugal, living in Germany.
+         20, self-taught frontend developer from Portugal, living in Germany.
         </p>
         <p className="home__text">
           Part of{" "}
