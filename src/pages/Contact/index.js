@@ -27,6 +27,10 @@ const Contact = () => {
             <img src={github} alt="github" className="contact__img" />
           </a>
         </div>
+
+        <a href="mailto:pgds410@gmail.com" className="contact__email-link">
+          Contact me now
+        </a>
       </div>
       <div className="contact__section_making_space" />
     </main>
